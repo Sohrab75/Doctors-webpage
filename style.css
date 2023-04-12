@@ -1,0 +1,683 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Muli', sans-serif;
+    background-color: #ffffff;
+}
+.section{
+    position: relative;
+    width: 100%;
+    /* height: 5870px; */
+    background: #FFFFFF;
+
+}
+/* navigation style */
+
+.navbar{
+    display: flex;
+}
+.brandname h1{
+    flex: 30%;
+    margin-left: 80px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #233348;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 1.06%;
+    bottom: 98.43%;
+}
+.navbar nav{
+    flex: 70%;
+    flex-wrap: wrap;
+    text-align: right;
+    margin-top:1.19% ;
+}
+.navbar nav a{
+    margin-right: 40px;
+    text-align: right;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F1534;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+/* header style */
+.header{
+    display: flex;
+    margin: 5%;
+    background-image: url(./image/trafalgar-header\ illustration\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 50% 100%;
+}
+.header-description{
+    flex: 40%;
+    margin-top: 5.82%;
+}
+.header-description h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    mix-blend-mode: normal;
+    margin-bottom:38px;
+}
+.header-description p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+    margin-bottom: 38px;
+    width: 500px;
+}
+.header-description a{
+    background: #458FF6;
+    border-radius: 55px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    padding: 12px 48px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.header-img{
+    flex: 40%;
+}
+
+/* services style */
+.services{
+    width: 100%;
+    margin-top: 100px;
+    background-image: url(./image/Vector-m.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40%;
+    margin: 5% 12%;
+}
+.services .services-heading{
+    width: 70%;
+}
+.services .services-heading h1{
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    mix-blend-mode: normal;
+    width: 100%;
+    margin-left: 12%;
+}
+.services p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #7D7987;
+    mix-blend-mode: normal;
+    width: 70%;
+    margin-left: 12%;
+    margin-bottom: 0;
+}
+.card-wrapper{
+    display: flex; 
+    flex-wrap: wrap;
+    
+     
+}
+.card-wrapper .card{
+    flex-basis: calc(80%/3);
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    margin: 15px;
+    padding: 5px;
+}
+.card-wrapper .card h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+.card-wrapper .card p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+    text-align: left;
+    align-items: start;
+    margin-left: 0;
+}
+.services a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #458FF6;
+    mix-blend-mode: normal;
+    border-radius: 20px;
+    background: transparent;
+    outline: 1px solid black;
+    padding: 5px 20px;
+    text-decoration: none;
+    margin-left: 40%;
+}
+
+/* healthcare style */
+.healthCare{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-image: url(./image/trafalgar-illustration\ sec02\ 1.png);
+    background-repeat: no-repeat;
+    background-position: left left;
+    background-size:60% 100%;
+    padding: 10px;
+    margin: 10%;
+}
+.healthCare .healthCare-description{
+    margin-left: 65%;
+}
+.healthCare .healthCare-description h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    mix-blend-mode: normal;
+    margin-bottom: 59px;
+}
+.healthCare .healthCare-description p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+    margin-bottom: 37px;
+}
+.healthCare .healthCare-description a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #458FF6;
+    mix-blend-mode: normal;
+    background: transparent;
+    padding: 5px 12px;
+    outline: 1px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/* mobileapp section style */
+
+.mobileapp{
+    background-image: url(./image/trafalgar-illustration\ sec03\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 50% 100%;
+    padding: 10px;
+    margin: 10%;
+}
+.mobileapp .mobileapp-description{
+    margin-right: 65%;
+}
+.mobileapp .mobileapp-description h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #000000;
+    mix-blend-mode: normal;
+    margin-bottom: 53px;
+}
+.mobileapp .mobileapp-description p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+    margin-bottom: 51px;
+}
+.mobileapp .mobileapp-description a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #458FF6;
+    mix-blend-mode: normal;
+    background: transparent;
+    padding: 5px 12px;
+    outline: 1px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+}
+/* testimonial section style */
+
+.testimonial{
+   
+    margin: 10%;
+    width: 1020px;
+    height: 425px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+}
+.testimonial h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    text-align: center;
+    margin-left: 10%;
+    padding: 30px;
+}
+.testimonial .testimonial-img{
+    display: flex;
+    margin: 5% 10%;
+}
+.testimonial .testimonial-img img{
+    border-radius: 50%;
+}
+.testimonial .testimonial-img h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.testimonial .testimonial-img p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 0.85);
+    mix-blend-mode: normal;
+    margin-top: 10%;
+    margin-left: -175px;
+}
+.testimonial .testimonial-description{
+    margin-left: 50%;
+    margin-top: -12%;
+}
+.updates{
+    margin: 10%;
+    background-image: url(./image/Vector2.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.updates .updates-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.updates h1{
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    mix-blend-mode: normal;
+    margin-left: 0;
+}
+.updates .updates-card{
+    flex-basis: calc(50%/3);
+    border-radius: 5px;
+    margin: 20px;
+}
+.updates .updates-card img{
+    width: 280px;
+    height: 250px;
+    border-radius: 5px;
+}
+.updates .updates-card h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+.updates .updates-card p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+}
+.updates .updates-card a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    color: #4089ED;
+    mix-blend-mode: normal;
+    text-decoration: none;
+}
+.updates .btn{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #458FF6;
+    mix-blend-mode: normal;
+    background: transparent;
+    padding: 5px 12px;
+    outline: 1px solid black;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 40%;
+
+}
+/* footer style */
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+.footer .footer-header{
+    margin-left:10% ;
+    padding-top: 5%;
+    width: 20%;
+}
+.footer .footer-header .logo{
+    border-radius: 50%;
+    background-color: white;
+    color: #67C3F3;
+    padding: 5px 8px;
+}
+.footer .footer-header h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    
+}
+.footer .footer-header p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    margin-bottom: 31px;
+}
+.footer .footer-header span{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+.footer .footer-card{
+    flex-basis: calc(50%/3);
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.footer .footer-card:nth-last-of-type(1){
+    margin-right: 0;
+}
+.footer .footer-card h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+.footer .footer-card ul li {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    list-style: none;
+}
+@media (max-width:375px){
+    .header{
+        width: 100%;
+        background-position: left center;
+        background-size: contain;
+        margin: 0;
+        padding: 0;
+    }
+    .header .header-description{
+        width: 100%;
+        margin: 1%;
+        padding: 0;
+    }
+    .header .header-description h1{
+        width: 365px;
+        font-size: 21px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .header .header-description p{
+        width: 340px;
+        font-size: 17px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .header .header-description a{
+        font-size: 15px;
+        padding: 4px 10px;
+        align-items: center;
+        margin-left: 20%;
+    }
+
+    /* navigation responsive */
+    .navbar{
+        margin: 0;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .navbar .brandname{
+        width:fit-content;
+        position: relative;
+        /* background-color: red; */
+    }
+    .navbar .brandname h1{
+        position: absolute;
+        font-size: 18px;
+        margin: 3px 5px;
+        border-radius: 50%;
+        background-color: #074bb1;
+        color: red;
+    }
+    .navbar nav{
+        position: absolute;
+        left: 7%;
+        margin-bottom: 20px;
+    }
+    .navbar nav a{
+        font-size: 15px;
+        margin-right:4px;
+    }
+    .navbar nav a:nth-last-of-type(1){
+        margin-right: 0;
+    }
+
+    /* services responsive */
+    .services{
+        width: 100%;
+        margin: 1%;
+        padding: 0;
+
+    }
+    .services .services-heading{
+        width: 100%;
+        align-items: center;
+    }
+    .services .services-heading h1{
+        margin-left: 0px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .services p{
+        width: 340px;
+        text-align: center;
+        margin: 0;
+        font-size: 15px;
+    }
+    .services a{
+        margin-left: 30%;
+    }
+
+    /* healthcare responsive */
+
+    .healthCare{
+        margin: 1%;
+        /* padding: 1%; */
+        background-position: left center;
+        background-size: 100% 90%;
+    }
+    .healthCare .healthCare-description{
+        margin: 0;
+    }
+    .healthCare .healthCare-description h1{
+        font-size: 18px;
+    }
+    .healthCare .healthCare-description p{
+        font-size: 15px;
+    }
+    .healthCare .healthCare-description a{
+        margin-left: 30%;
+    }
+    
+    /* mobileapp responsive */
+    .mobileapp{
+        margin: 1%;
+
+        width: 100%;
+        background-position: left center;
+        background-size: 100% 90%;
+    }
+    .mobileapp .mobileapp-description{
+        width: 100%;
+    }
+    .mobileapp .mobileapp-description h1{
+        font-size: 18px;
+    }
+    .mobileapp .mobileapp-description p{
+        font-size: 15px;
+        width: 100%;
+    }
+    .mobileapp .mobileapp-description a{
+        margin-left: 30%;
+    }
+
+    /* testimonial responsive */
+    .testimonial{
+        width: 100%;
+        margin: 0;
+    }
+    .testimonial h1{
+        font-size: 18px;
+        text-align: left;
+        margin:5px ;
+        padding: 0;
+    }
+    .testimonial .testimonial-card{
+        width: 100%;
+        /* flex-basis: calc(30%/2); */
+    }
+    .testimonial .testimonial-img{
+        margin-left: 10px;
+       margin-top: 30px;
+    }
+    .testimonial .testimonial-img img{
+        width: 100px;
+        height: 100px;
+    }
+    .testimonial .testimonial-img h4{
+        font-size: 12px;
+    }
+    .testimonial .testimonial-img p{
+        font-size: 10px;
+        margin-left: -90px;
+    }
+    .testimonial .testimonial-description{
+        margin-left:0 ;
+        margin-top: 30px;
+    }
+    /* services responsive */
+    .card-wrapper{
+        flex-direction: column;
+         
+    }
+    .card-wrapper .card {
+        width: 96%;
+        margin: 2%;
+        height: 200px;
+        /* flex-basis: calc(80%/3); */
+    }
+
+    /* footer responsive */
+    .footer{
+        margin: 0;
+        padding: 0;
+        /* flex-direction: column; */
+    }
+    .footer .footer-header{
+        margin: 0;
+        margin-left: 20px;
+        padding: 0;
+    }
+    .footer .footer-header p{
+        font-size: 14px;
+        line-height: 16px;
+        width: 350px;
+    }
+    .footer .footer-header h5{
+        font-size: 12px;
+        width: 350px;
+        color: #FFFFFF;
+    }
+    .footer .footer-card{
+        margin-left: 0px;
+        margin-top: 180px;
+        margin-right: 10px;
+
+    }
+    .footer .footer-card h2{
+        font-size: 16px;
+
+    }
+    .footer .footer-card ul li{
+        font-size: 15px;
+    }
+}
